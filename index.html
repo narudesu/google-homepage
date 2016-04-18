@@ -3,17 +3,30 @@
 
 <head>
   <title>Google's clone</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href="#"><i class="fa fa-caret-square-o-down"></i></a></li>
+      <li><a href="#" class="btn-login">Login</a></li>
+    </ul>
+  </nav>
   <img src="http://ih0.redbubble.net/image.94114234.6886/pp,550x550.u2.jpg" alt="black google logo" class="google-logo">
   <form action="#">
     <input type="text" class="search-box" name="search-box">
     <br>
     <ul class="search-buttons">
-      <li><input type="submit" value="Search" name="search"></li>
-      <li><input type="submit" value="Lucky"></li>
+      <li>
+        <input type="submit" value="Search" name="search">
+      </li>
+      <li>
+        <input type="submit" value="Lucky">
+      </li>
     </ul>
   </form>
 
