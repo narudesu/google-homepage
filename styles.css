@@ -21,11 +21,14 @@ body {
   font-size: 18px;
   font-family: inherit;
   margin-bottom: -20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .search-buttons {
   text-align: center;
   list-style-type: none;
+  padding: 0;
 }
 
 .search-buttons li {
@@ -34,6 +37,8 @@ body {
 
 input[type=submit] {
   padding: 5px 30px;
+  font-family: inherit;
+  font-weight: 700;
 }
 
 .nav-list {
@@ -57,4 +62,43 @@ input[type=submit] {
   padding: 5px;
   border: 1px solid #5295fa;
   border-radius: 7px;
+}
+
+footer {
+  position: absolute;
+  padding: 0px 20px;
+  bottom: 20px;
+  left: 0px;
+  background: #eee;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.left-foot {
+  float: left;
+}
+
+.left-foot li {
+  margin-right: 10px;
+}
+
+.right-foot {
+  text-align: right;
+}
+
+.right-foot li {
+  margin-left: 10px;
 }
