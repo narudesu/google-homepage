@@ -1,0 +1,25 @@
+.google-logo {
+  display: block;
+  margin-top: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+}
+.search-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 35px;
+}
+
+.search-buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.search-buttons li {
+  display: inline;
+}
